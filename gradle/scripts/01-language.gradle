@@ -1,0 +1,11 @@
+java {
+    sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+}
+
+kotlin {
+    jvmToolchain(17)
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

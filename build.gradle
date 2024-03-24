@@ -1,0 +1,19 @@
+//file:noinspection GroovyAssignabilityCheck
+
+plugins {
+    id 'dev.architectury.loom' version '1.4.386'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.22'
+}
+
+group = project.maven_group
+version = project.mod_version
+
+apply from: "$rootDir/gradle/scripts/01-language.gradle"
+apply from: "$rootDir/gradle/scripts/02-loom.gradle"
+
+apply from: "$rootDir/gradle/scripts/03-repository-reordering.gradle"
+apply from: "$rootDir/gradle/scripts/04-repositories.gradle"
+apply from: "$rootDir/dependencies.gradle"
+
+apply from: "$rootDir/gradle/scripts/05-artifacts.gradle"
+apply from: "$rootDir/gradle/scripts/06-publishing.gradle"

@@ -1,0 +1,11 @@
+repositories {
+    maven {
+        name = 'tterrag Maven'
+        url "https://maven.tterrag.com/"
+    }
+
+    maven {
+        name = 'Parchment Maven'
+        url "https://maven.parchmentmc.org/"
+    }
+}

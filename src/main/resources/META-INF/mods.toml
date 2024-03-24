@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "LGPL-3.0"
+
+[[mods]]
+modId = "template_mod"
+version = "${version}"
+displayName = "Template Mod"
+description = '''
+Template Mod
+'''
+
+[[dependencies.template_mod]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.template_mod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraft_version},)"
+ordering = "NONE"
+side = "BOTH"

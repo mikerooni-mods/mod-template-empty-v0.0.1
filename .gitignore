@@ -1,0 +1,18 @@
+# Gradle
+/.gradle/
+/build/
+
+# IntelliJ
+/.idea/
+/out/
+*.ipr
+*.iws
+*.iml
+
+# Minecraft-specific
+/run/
+/run-data/
+
+/src/generated/.cache
+
+/lib/
